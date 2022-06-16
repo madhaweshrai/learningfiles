@@ -1,0 +1,44 @@
+Instructions
+================================================================
+Design an object model for a given domain. Use (demonstrate the ability to work with):
+	- Classes (abstract classes – if possible)
+	- Interfaces
+	- Inheritance,
+	- Polymorphism,
+	- Encapsulation,
+	- Collections.
+
+Each class methods and variables must have a sense and be informative.
+ It is good to think about exactly what classes are needed in the solution. 
+Inheritance should be used only when it makes sense. Classes must be properly 
+laid out in packages. Working with the an user’s console menu should be minimal 
+(only necessary data input, display only what is asked in the problem).
+ The task is a domain area where you have to allocate the necessary hierarchy 
+of classes and to implement it with the features of OOP (using inheritance,
+ if necessary or realizing interfaces). Each class must have fields and methods that you consider necessary.
+ The program should create objects of different classes in the selected domain, combine them in any set of 
+objects (use the collection). As a rule, the task requires to perform some action on the objects in a collection of objects
+ based on specified criteria.
+
+Tasks 
+================================================================
+1. I have a pizza shop, which offers a Standard or Soft base. It also offers a selection of toppings from Tomato,  corn, mushrooms.
+ Customers can choose one base and many toppings. The cost of the pizza is the cost of the base plus the cost of the selected toppings. 
+Write code to represent this model in an Object-Oriented approach and calculate the cost of a given pizza. 
+
+2. A bouquet consists of different types of flowers, Roses, Jasmines, Lilys etc. Consider a rose costs 1$, jasmine costs 2$, 
+Lily costs 3$.
+ The cost of the bouquet is the sum of the cost of the flowers in it.  Use the object-oriented approach to design the above 
+situation and write a utility method to calculate the cost of the given bouquet. 
+
+3. New Year's gift. Identify the hierarchy of chocolates and other sweets. Create multiple objects of sweets. 
+Collect children's gift to define total weight. Sort the chocolates in a gift by one of the options. 
+Find candies in the gift corresponding to a predetermined range of options. 
+
+4. In a home, there are multiple appliances. Each appliance consumes a certain amount of power when “Switch on”. 
+eg: Home can have FAN, Light, TV, Laptop, etc. when "Switch on" they consume FAN-1 unit, Light - 2 units, TV-3 units etc power.
+ Create a method to calculate the amount of power consumption at any given point (current load). 
+Sort the devices in an apartment by one of (any) the parameters.
+
+
+https://github.com/nazar-art/Java8ForReallyImpatient/tree/master/src/main/java/com/demo/ch1
